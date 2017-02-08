@@ -24,3 +24,5 @@ let Tlist_Compact_Format = 1
 let Tlist_GainFocus_On_ToggleOpen = 1
 let Tlist_Close_On_Select = 1
 nnoremap <C-l> :TlistToggle<CR>
+
+set tags=./tags,tags;$HOME
