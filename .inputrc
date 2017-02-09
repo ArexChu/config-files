@@ -5,6 +5,7 @@ set keymap vi-command
 "\e[A": history-search-backward
 "\e[B": history-search-forward
 set keymap vi-insert
+"jk": vi-movement-mode
 # these are for vi-insert mode
 "\e[A": history-search-backward
 "\e[B": history-search-forward
