@@ -2,8 +2,8 @@ set editing-mode vi
 $if mode=vi
 set keymap vi-command
 # these are for vi-command mode
-"\e[A": history-search-backward
-"\e[B": history-search-forward
+"k": history-search-backward
+"j": history-search-forward
 set keymap vi-insert
 "jk": vi-movement-mode
 # these are for vi-insert mode
