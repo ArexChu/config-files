@@ -1,3 +1,42 @@
+# Lynx User Defaults File
+
+# This file contains options saved from the Lynx Options Screen (normally
+# with the '>' key).  There is normally no need to edit this file manually,
+# since the defaults here can be controlled from the Options Screen, and the
+# next time options are saved from the Options Screen this file will be
+# completely rewritten.  You have been warned...
+# If you are looking for the general configuration file - it is normally
+# called lynx.cfg, and it has different content and a different format.
+# It is not this file.
+
+# accept_all_cookies allows the user to tell Lynx to automatically
+# accept all cookies if desired.  The default is "FALSE" which will
+# prompt for each cookie.  Set accept_all_cookies to "TRUE" to accept
+# all cookies.
+accept_all_cookies=off
+
+# file_editor specifies the editor to be invoked when editing local files
+# or sending mail.  If no editor is specified, then file editing is disabled
+# unless it is activated from the command line, and the built-in line editor
+# will be used for sending mail.
+file_editor=vi
+
+# lineedit_mode specifies the key binding used for inputting strings in
+# prompts and forms.  If lineedit_mode is set to "Default Binding" then
+# the following control characters are used for moving and deleting:
+
+#              Prev  Next       Enter = Accept input
+#    Move char: <-    ->        ^G    = Cancel input
+#    Move word: ^P    ^N        ^U    = Erase line
+#  Delete char: ^H    ^R        ^A    = Beginning of line
+#  Delete word: ^B    ^F        ^E    = End of line
+
+# Current lineedit modes are:
+#    Default Binding
+#    Alternate Bindings
+#    Bash-like Bindings
+lineedit_mode=Default Bindings
+
 # If vi_keys is set to "on", then the normal VI movement keys:
 #   j = down    k = up
 #   h = left    l = right
