@@ -1,0 +1,7 @@
+# If vi_keys is set to "on", then the normal VI movement keys:
+#   j = down    k = up
+#   h = left    l = right
+# will be enabled.  These keys are only lower case.
+# Capital 'H', 'J' and 'K will still activate help, jump shortcuts,
+# and the keymap display, respectively.
+vi_keys=on
