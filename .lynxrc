@@ -35,7 +35,7 @@ file_editor=vi
 #    Default Binding
 #    Alternate Bindings
 #    Bash-like Bindings
-lineedit_mode=Default Bindings
+lineedit_mode=Default Binding
 
 # If vi_keys is set to "on", then the normal VI movement keys:
 #   j = down    k = up
