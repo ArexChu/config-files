@@ -13,7 +13,7 @@
 # accept all cookies if desired.  The default is "FALSE" which will
 # prompt for each cookie.  Set accept_all_cookies to "TRUE" to accept
 # all cookies.
-accept_all_cookies=off
+accept_all_cookies=TRUE
 
 # file_editor specifies the editor to be invoked when editing local files
 # or sending mail.  If no editor is specified, then file editing is disabled
