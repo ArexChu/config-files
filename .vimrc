@@ -22,9 +22,9 @@ syntax on
 "Indent
 set tabstop=4
 set shiftwidth=4
-#set cindent
-#filetype plugin indent on
-#set autoindent
+"set cindent
+"filetype plugin indent on
+"set autoindent
 
 "Buffer
 set hidden
