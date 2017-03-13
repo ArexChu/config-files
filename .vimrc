@@ -20,11 +20,11 @@ set number
 syntax on
 
 "Indent
-set autoindent
-set cindent
 set tabstop=4
 set shiftwidth=4
-filetype plugin indent on
+#set cindent
+#filetype plugin indent on
+#set autoindent
 
 "Buffer
 set hidden
