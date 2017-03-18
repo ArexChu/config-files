@@ -1,9 +1,9 @@
 set nocompatible              " be iMproved, required
-"set the runtime path to include Vundle and initialize
+" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'taglist.vim'
@@ -26,14 +26,15 @@ set shiftwidth=4
 "filetype plugin indent on
 "set autoindent
 
-"Buffer
+" Buffer
+" enable switching between buffers without saving
 set hidden
 
-"Save cursor position
+" Save cursor position
 augroup resCur
   autocmd!
   autocmd BufReadPost * call setpos(".", getpos("'\""))
 augroup END
 
-"Ctags
+" Ctags
 set tags=./tags,tags;$HOME
