@@ -24,6 +24,4 @@ fi
 HISTSIZE=
 HISTFILESIZE=
 
-export PATH=$PATH:~/bin
-
 alias vi="vim"
