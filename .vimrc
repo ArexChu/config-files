@@ -19,10 +19,10 @@ set number
 
 syntax on
 
-"Indent
+" Indent
 set tabstop=4
 set shiftwidth=4
-"set cindent
+set cindent
 "filetype plugin indent on
 "set autoindent
 
