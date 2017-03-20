@@ -13,11 +13,11 @@ Plugin 'fholgado/minibufexpl.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-inoremap jk <esc>
-
-set number
-
+" Highlighting
 syntax on
+
+" Number
+set nu
 
 " Indent
 set tabstop=4
