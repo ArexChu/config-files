@@ -7,7 +7,6 @@ case $_os in
     	alias ls='ls --color=auto'
 		export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 	;;
-
 	Darwin) 
 		alias ls='ls -G'
 	;;
