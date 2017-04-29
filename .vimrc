@@ -9,8 +9,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'taglist.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fholgado/minibufexpl.vim'
-" Plugin 'CodeFalling/fcitx-vim-osx'
+
+let s:uname = system("uname")
+if s:uname == "Linux\n"
 Plugin 'lilydjwg/fcitx.vim'
+elseif s:uname == "Darwin\n"
+Plugin 'CodeFalling/fcitx-vim-osx'
+endif
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
