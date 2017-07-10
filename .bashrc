@@ -8,6 +8,7 @@ case $_os in
 	;;
 	Darwin) 
 		alias ls='ls -G'
+		export PATH="$HOME/.fastlane/bin:$PATH"
 	;;
 esac
 
