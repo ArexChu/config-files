@@ -44,4 +44,4 @@ augroup resCur
 augroup END
 
 " Ctags
-set tags=./tags,tags;$HOME
+"set tags=./tags,tags;$HOME
