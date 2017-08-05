@@ -9,7 +9,6 @@ case $_os in
 	Darwin) 
 		alias ls='ls -G'
 		export PATH="$HOME/.fastlane/bin:$PATH"
-		export PATH="$HOME/Android-sdk/platform-tools:$PATH"
 	;;
 esac
 
@@ -17,6 +16,7 @@ esac
 export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/Android-sdk/platform-tools:$PATH"
 
 # history
 HISTSIZE=
