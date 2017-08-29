@@ -24,3 +24,6 @@ HISTFILESIZE=
 
 # alias
 alias vi="vim"
+
+export NVM_DIR="/home/arex/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

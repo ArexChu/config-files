@@ -29,7 +29,7 @@ set nu
 " Indent
 set tabstop=4
 set shiftwidth=4
-set cindent
+"set cindent
 "filetype plugin indent on
 "set autoindent
 
@@ -44,4 +44,4 @@ augroup resCur
 augroup END
 
 " Ctags
-"set tags=./tags,tags;$HOME
+set tags=$HOME/.vim/tags/tags
