@@ -4,7 +4,7 @@ _os="$(uname)"
 # add variable as per os using $_os
 case $_os in
 	Linux) 	
-    	alias ls='ls --color=auto'
+		alias ls='ls --color=auto'
 	;;
 	Darwin) 
 		alias ls='ls -G'
@@ -25,5 +25,8 @@ HISTFILESIZE=
 # alias
 alias vi="vim"
 
-export NVM_DIR="/home/arex/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
