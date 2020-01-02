@@ -5,9 +5,13 @@ _os="$(uname)"
 case $_os in
 	Linux) 	
 		alias ls='ls --color=auto'
+		export GTK_IM_MODULE=fcitx
+		export QT_IM_MODULE=fcitx
+		export XMODIFIERS="@im=fcitx"
 	;;
 	Darwin) 
 		alias ls='ls -G'
+		export PATH="/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/bin:$PATH"
 		export PATH="$HOME/.fastlane/bin:$PATH"
 	;;
 esac
