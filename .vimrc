@@ -9,7 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'taglist.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fholgado/minibufexpl.vim'
-Plugin 'chemzqm/wxapp.vim'
+"Plugin 'chemzqm/wxapp.vim'
 
 "let s:uname = system("uname")
 "if s:uname == "Linux\n"
