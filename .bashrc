@@ -28,6 +28,7 @@ HISTFILESIZE=
 
 # alias
 alias vi="vim"
+alias emacs="emacs -nw"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
