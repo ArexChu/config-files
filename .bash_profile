@@ -12,18 +12,15 @@ _os="$(uname)"
 
 # add variable as per os using $_os
 case $_os in
-        Linux)
-                PATH=$PATH:$HOME/bin
-        ;;
+	Linux)
+		PATH=$PATH:$HOME/bin
+	;;
 	Darwin) 
-                PATH=$PATH:$HOME/bin:/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/bin:$HOME/Android-sdk/platform-tools
+		PATH=$PATH:$HOME/bin:/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/bin:$HOME/Android-sdk/platform-tools
 	;;
 esac
 
 export PATH
-
-# prompt
-export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -32,3 +29,8 @@ export NVM_DIR="$HOME/.nvm"
 # history
 HISTSIZE=
 HISTFILESIZE=
+
+# fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx

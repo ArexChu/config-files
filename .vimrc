@@ -25,7 +25,7 @@ call vundle#end()            " required
 syntax on
 
 " Number
-set nu
+"set nu
 
 " Indent
 set tabstop=4
@@ -45,4 +45,4 @@ augroup resCur
 augroup END
 
 " Ctags
-set tags=$HOME/.vim/tags/tags
+"set tags=$HOME/.vim/tags/tags
