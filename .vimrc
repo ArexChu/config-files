@@ -5,10 +5,10 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 " call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'taglist.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'fholgado/minibufexpl.vim'
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'taglist.vim'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'fholgado/minibufexpl.vim'
 "Plugin 'chemzqm/wxapp.vim'
 
 "let s:uname = system("uname")
