@@ -1,12 +1,3 @@
-#set editing-mode vi
-
-#$if mode=vi
-#set keymap vi-command
-## these are for vi-command mode
-#"k": history-search-backward
-#"j": history-search-forward
-#$endif
-
 $if mode=emacs
 "\C-p": history-search-backward
 "\C-n": history-search-forward
